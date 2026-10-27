@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Planets orbiting a sun">
+  <rect width="640" height="400" fill="#0E1A2B"/>
+  <g fill="#fff" opacity=".7">
+    <circle cx="40" cy="50" r="1.5"/><circle cx="120" cy="350" r="1.5"/><circle cx="590" cy="60" r="1.5"/>
+    <circle cx="560" cy="340" r="1.5"/><circle cx="250" cy="30" r="1"/><circle cx="420" cy="375" r="1"/><circle cx="610" cy="200" r="1"/>
+  </g>
+  <g fill="none" stroke="#fff" stroke-opacity=".22">
+    <circle cx="320" cy="200" r="70"/><circle cx="320" cy="200" r="110"/>
+    <circle cx="320" cy="200" r="150"/><circle cx="320" cy="200" r="190"/>
+  </g>
+  <circle cx="320" cy="200" r="52" fill="#F4B63F" opacity=".25"/>
+  <circle cx="320" cy="200" r="34" fill="#F4B63F"/>
+  <circle cx="378" cy="154" r="7" fill="#B9C4D4"/>
+  <circle cx="226" cy="262" r="11" fill="#E8864A"/>
+  <circle cx="451" cy="231" r="14" fill="#4F8FD8"/>
+  <circle cx="190" cy="92" r="10" fill="#C94B3B"/>
+  <ellipse cx="510" cy="90" rx="22" ry="5" fill="none" stroke="#E5C98A" stroke-width="3" transform="rotate(-20 510 90)"/>
+  <circle cx="510" cy="90" r="12" fill="#E5C98A"/>
+</svg>

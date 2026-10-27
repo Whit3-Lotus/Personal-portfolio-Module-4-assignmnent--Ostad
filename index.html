@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="antialiased">
+
+
+  <header class="sticky top-0 z-50 border-b border-[#D6DEE8] bg-[#F2F5F9]/90 backdrop-blur">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-3 sm:px-8">
+      <a href="#home" class="flex items-center gap-2 font-display text-xl font-bold">
+        <span class="inline-block h-3 w-3 rounded-sm bg-[#F4B63F]" aria-hidden="true"></span>
+        Farhan Rashid Pranto
+      </a>
+
+      <!-- Desktop links -->
+      <nav class="hidden items-center gap-1 md:flex" aria-label="Main">
+        <a href="#home" class="rounded-md px-3 py-2 font-medium hover:bg-[#E3E9F1]">Home</a>
+        <a href="#about" class="rounded-md px-3 py-2 font-medium hover:bg-[#E3E9F1]">About</a>
+        <a href="#skills" class="rounded-md px-3 py-2 font-medium hover:bg-[#E3E9F1]">Skills</a>
+        <a href="#projects" class="rounded-md px-3 py-2 font-medium hover:bg-[#E3E9F1]">Projects</a>
+        <a href="#education" class="rounded-md px-3 py-2 font-medium hover:bg-[#E3E9F1]">Education</a>
+        <a href="#contact" class="ml-2 rounded-full bg-[#13202E] px-5 py-2 font-semibold text-white hover:bg-[#0E6B50]">Contact</a>
+      </nav>
+
+      <div class="md:hidden">
+        <a href="#menu" class="menu-open inline-flex h-11 w-11 items-center justify-center rounded-md hover:bg-[#E3E9F1]" aria-label="Open menu">
+          <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </a>
+        <a href="#home" class="menu-close h-11 w-11 items-center justify-center rounded-md hover:bg-[#E3E9F1]" aria-label="Close menu">
+          <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="md:hidden">
+      <nav id="menu" class="menu-panel border-t border-[#D6DEE8] bg-[#F2F5F9] px-5 pb-5 pt-2 sm:px-8" aria-label="Mobile">
+        <a href="#home" class="block rounded-md px-3 py-3 text-lg font-medium hover:bg-[#E3E9F1]">Home</a>
+        <a href="#about" class="block rounded-md px-3 py-3 text-lg font-medium hover:bg-[#E3E9F1]">About</a>
+        <a href="#skills" class="block rounded-md px-3 py-3 text-lg font-medium hover:bg-[#E3E9F1]">Skills</a>
+        <a href="#projects" class="block rounded-md px-3 py-3 text-lg font-medium hover:bg-[#E3E9F1]">Projects</a>
+        <a href="#education" class="block rounded-md px-3 py-3 text-lg font-medium hover:bg-[#E3E9F1]">Education</a>
+        <a href="#contact" class="mt-2 block rounded-full bg-[#13202E] px-3 py-3 text-center text-lg font-semibold text-white">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home">
+      <div class="mx-auto grid max-w-6xl items-center gap-12 px-5 pb-12 pt-12 sm:px-8 md:grid-cols-[1.2fr_0.8fr] md:pb-16 md:pt-20">
+        <div>
+          <p class="text-lg text-[#46566A]">Hi, I'm</p>
+          <h1 class="font-display mt-1 text-5xl font-extrabold leading-[1.05] sm:text-6xl lg:text-7xl">
+            Farhan Rashid Pranto
+          </h1>
+          <p class="mt-4 text-xl font-semibold text-[#0E6B50] sm:text-2xl">Computer Science and Engineering student</p>
+          <p class="mt-5 max-w-xl text-lg text-[#46566A]">
+            I'm a student at Daffodil International University in Dhaka.I am doing my undergraduate studies in Computer Science and Engineering. In between, I build web pages and small graphics programs. I'm also doing research on natural language processing for Bengali, a language that has far fewer ready-made datasets than English.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#projects" class="inline-flex min-h-[48px] items-center justify-center rounded-full bg-[#0E6B50] px-7 py-3 font-semibold text-white transition-colors hover:bg-[#0A5640]">View projects</a>
+            <a href="#contact" class="inline-flex min-h-[48px] items-center justify-center rounded-full border-2 border-[#13202E] px-7 py-3 font-semibold transition-colors hover:bg-[#13202E] hover:text-white">Contact me</a>
+          </div>
+        </div>
+
+        <div class="relative mx-auto w-full max-w-xs md:max-w-sm">
+          <div class="absolute inset-0 translate-x-3 translate-y-3 rounded-[2rem] bg-[#F4B63F]" aria-hidden="true"></div>
+          <img src="images/Pranto.jpeg" width="400" height="500" alt="Portrait of Farhan Rashid Pranto" class="relative aspect-[4/5] w-full rounded-[2rem] object-cover">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="bg-[#F2F5F9]">
+      <div class="mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-8 md:grid-cols-[1.3fr_0.7fr] md:py-24">
+        <div>
+          <h2 class="font-display text-3xl font-bold sm:text-4xl">About me</h2>
+          <div class="mt-6 max-w-2xl space-y-5 text-lg text-[#33445A]">
+            <p>
+              I study Computer Science and Engineering at Daffodil International University. My courses so far have ranged from computer graphics and computer architecture to professional ethics, and I've learned the most when I had to build something with what the lecture covered.
+            </p>
+            <p>
+              Right now I'm learning how natural language processing works for Bengali. I am particularly interested in the challenges of working with low-resource languages. I want to work on language technology for Bengali speakers, in a team that cares about research as much as shipping. I
+              also enjoy clean web layouts and anything I can draw on screen with code.
+            </p>
+            <p>
+              I am currently learning full-stack web development in the MERN stack with Ostad.
+            </p>
+          </div>
+        </div>
+
+        <dl class="h-fit divide-y divide-[#D6DEE8] self-start rounded-2xl border border-[#D6DEE8] bg-white">
+          <div class="p-5">
+            <dt class="text-sm text-[#46566A]">Studying</dt>
+            <dd class="mt-0.5 font-semibold">BSc in Computer Science and Engineering</dd>
+          </div>
+          <div class="p-5">
+            <dt class="text-sm text-[#46566A]">Based in</dt>
+            <dd class="mt-0.5 font-semibold">Dhaka, Bangladesh</dd>
+          </div>
+          <div class="p-5">
+            <dt class="text-sm text-[#46566A]">Interests</dt>
+            <dd class="mt-0.5 font-semibold">Bengali NLP, computer graphics, web design & development</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="skills" class="bg-white">
+      <div class="mx-auto max-w-6xl px-5 py-16 sm:px-8 md:py-24">
+        <h2 class="font-display text-3xl font-bold sm:text-4xl">Skills</h2>
+        <div class="mt-10 divide-y divide-[#D6DEE8] border-y border-[#D6DEE8]">
+
+          <div class="grid gap-4 py-7 md:grid-cols-[14rem_1fr] md:gap-8">
+            <div>
+              <h3 class="font-display text-xl font-bold">Building web pages</h3>
+              <p class="mt-1 text-[#46566A]">Responsive layouts, forms, small interactive pages.</p>
+            </div>
+            <ul class="flex flex-wrap content-start gap-2.5">
+              <li class="flex items-center gap-2 rounded-lg bg-[#E4EEE9] px-4 py-2 font-medium"><span class="h-2.5 w-2.5 rounded-full bg-[#0E6B50]" aria-hidden="true"></span>HTML</li>
+              <li class="flex items-center gap-2 rounded-lg bg-[#E4EEE9] px-4 py-2 font-medium"><span class="h-2.5 w-2.5 rounded-full bg-[#0E6B50]" aria-hidden="true"></span>CSS</li>
+              <li class="flex items-center gap-2 rounded-lg bg-[#E4EEE9] px-4 py-2 font-medium"><span class="h-2.5 w-2.5 rounded-full bg-[#0E6B50]" aria-hidden="true"></span>Tailwind CSS</li>
+              <li class="flex items-center gap-2 rounded-lg bg-[#E4EEE9] px-4 py-2 font-medium"><span class="h-2.5 w-2.5 rounded-full bg-[#0E6B50]" aria-hidden="true"></span>JavaScript</li>
+            </ul>
+          </div>
+
+          <div class="grid gap-4 py-7 md:grid-cols-[14rem_1fr] md:gap-8">
+            <div>
+              <h3 class="font-display text-xl font-bold">Programming and graphics</h3>
+              <p class="mt-1 text-[#46566A]">Coursework and lab projects.</p>
+            </div>
+            <ul class="flex flex-wrap content-start gap-2.5">
+              <li class="flex items-center gap-2 rounded-lg bg-[#FBF0D3] px-4 py-2 font-medium"><span class="h-2.5 w-2.5 rounded-full bg-[#D99A14]" aria-hidden="true"></span>C</li>
+              <li class="flex items-center gap-2 rounded-lg bg-[#FBF0D3] px-4 py-2 font-medium"><span class="h-2.5 w-2.5 rounded-full bg-[#D99A14]" aria-hidden="true"></span>Python</li>
+              <li class="flex items-center gap-2 rounded-lg bg-[#FBF0D3] px-4 py-2 font-medium"><span class="h-2.5 w-2.5 rounded-full bg-[#D99A14]" aria-hidden="true"></span>OpenGL and GLUT</li>
+            </ul>
+          </div>
+
+          <div class="grid gap-4 py-7 md:grid-cols-[14rem_1fr] md:gap-8">
+            <div>
+              <h3 class="font-display text-xl font-bold">Research and language data</h3>
+              <p class="mt-1 text-[#46566A]">What my final year project is built on.</p>
+            </div>
+            <ul class="flex flex-wrap content-start gap-2.5">
+              <li class="flex items-center gap-2 rounded-lg bg-[#E1E9F6] px-4 py-2 font-medium"><span class="h-2.5 w-2.5 rounded-full bg-[#3B5E9E]" aria-hidden="true"></span>Natural Language Processing</li>
+              <li class="flex items-center gap-2 rounded-lg bg-[#E1E9F6] px-4 py-2 font-medium"><span class="h-2.5 w-2.5 rounded-full bg-[#3B5E9E]" aria-hidden="true"></span>Active learning</li>
+              <li class="flex items-center gap-2 rounded-lg bg-[#E1E9F6] px-4 py-2 font-medium"><span class="h-2.5 w-2.5 rounded-full bg-[#3B5E9E]" aria-hidden="true"></span>Survey data analysis</li>
+              <li class="flex items-center gap-2 rounded-lg bg-[#E1E9F6] px-4 py-2 font-medium"><span class="h-2.5 w-2.5 rounded-full bg-[#3B5E9E]" aria-hidden="true"></span>Academic writing</li>
+            </ul>
+          </div>
+
+          <div class="grid gap-4 py-7 md:grid-cols-[14rem_1fr] md:gap-8">
+            <div>
+              <h3 class="font-display text-xl font-bold">Version control</h3>
+              <p class="mt-1 text-[#46566A]">Keeping work organised and shareable.</p>
+            </div>
+            <ul class="flex flex-wrap content-start gap-2.5">
+              <li class="flex items-center gap-2 rounded-lg bg-[#E8ECF1] px-4 py-2 font-medium"><span class="h-2.5 w-2.5 rounded-full bg-[#13202E]" aria-hidden="true"></span>Git</li>
+              <li class="flex items-center gap-2 rounded-lg bg-[#E8ECF1] px-4 py-2 font-medium"><span class="h-2.5 w-2.5 rounded-full bg-[#13202E]" aria-hidden="true"></span>GitHub</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="bg-[#F2F5F9]">
+      <div class="mx-auto max-w-6xl px-5 py-16 sm:px-8 md:py-24">
+        <h2 class="font-display text-3xl font-bold sm:text-4xl">Projects</h2>
+        <div class="mt-10 grid gap-8 md:grid-cols-2">
+
+          <article class="flex flex-col overflow-hidden rounded-2xl border border-[#D6DEE8] bg-white">
+            <img src="images/solar-system.svg" width="640" height="400" loading="lazy" alt="Planets circling a glowing sun on dark blue" class="aspect-[16/10] w-full object-cover">
+            <div class="flex flex-1 flex-col p-6">
+              <h3 class="font-display text-xl font-bold">Solar system simulation</h3>
+              <p class="mt-3 flex-1 text-[#46566A]">
+                An animated solar system with realistic physics and movement around the sun as the entire system travels through space in C with OpenGL and GLUT.
+              </p>
+              <ul class="mt-4 flex flex-wrap gap-2 text-sm">
+                <li class="rounded-md bg-[#E8ECF1] px-2.5 py-1">C</li>
+                <li class="rounded-md bg-[#E8ECF1] px-2.5 py-1">OpenGL</li>
+                <li class="rounded-md bg-[#E8ECF1] px-2.5 py-1">GLUT</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="flex flex-col overflow-hidden rounded-2xl border border-[#D6DEE8] bg-white">
+            <img src="images/night-sky.svg" width="640" height="400" loading="lazy" alt="Crescent moon, stars and clouds in a night sky" class="aspect-[16/10] w-full object-cover">
+            <div class="flex flex-1 flex-col p-6">
+              <h3 class="font-display text-xl font-bold">Night sky scene</h3>
+              <p class="mt-3 flex-1 text-[#46566A]">
+                A scene built from basic OpenGL shapes: circles, half-circles, hexagons, crescent moons, clouds and stars, all placed with polar-to-Cartesian maths.
+              </p>
+              <ul class="mt-4 flex flex-wrap gap-2 text-sm">
+                <li class="rounded-md bg-[#E8ECF1] px-2.5 py-1">C</li>
+                <li class="rounded-md bg-[#E8ECF1] px-2.5 py-1">OpenGL</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="flex flex-col overflow-hidden rounded-2xl border border-[#D6DEE8] bg-white">
+            <img src="images/survey.svg" width="640" height="400" loading="lazy" alt="Bar chart of survey responses with one bar highlighted" class="aspect-[16/10] w-full object-cover">
+            <div class="flex flex-1 flex-col p-6">
+              <h3 class="font-display text-xl font-bold">AI tool use in Bangladeshi higher education</h3>
+              <p class="mt-3 flex-1 text-[#46566A]">
+                A research paper for my Research and Innovation Writing course, based on a real survey dataset about how university students use AI tools.
+              </p>
+              <ul class="mt-4 flex flex-wrap gap-2 text-sm">
+                <li class="rounded-md bg-[#E8ECF1] px-2.5 py-1">Survey analysis</li>
+                <li class="rounded-md bg-[#E8ECF1] px-2.5 py-1">APA citations</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="flex flex-col overflow-hidden rounded-2xl border border-[#D6DEE8] bg-white">
+            <img src="images/calculator.svg" width="640" height="400" loading="lazy" alt="A simple calculator with a display and number keys" class="aspect-[16/10] w-full object-cover">
+            <div class="flex flex-1 flex-col p-6">
+              <h3 class="font-display text-xl font-bold">Simple Python calculator</h3>
+              <p class="mt-3 flex-1 text-[#46566A]">
+                A small calculator written in Python. It takes two numbers and an operator, then adds, subtracts, multiplies or divides them and shows the result.
+              </p>
+              <ul class="mt-4 flex flex-wrap gap-2 text-sm">
+                <li class="rounded-md bg-[#E8ECF1] px-2.5 py-1">Python</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="bg-white">
+      <div class="mx-auto max-w-6xl px-5 py-16 sm:px-8 md:py-24">
+        <h2 class="font-display text-3xl font-bold sm:text-4xl">Education</h2>
+
+        <ol class="timeline relative mt-10 max-w-3xl space-y-10">
+
+          <li class="relative pl-10">
+            <span class="absolute left-0 top-1.5 h-6 w-6 rounded-full border-4 border-white bg-[#0E6B50] ring-2 ring-[#0E6B50]" aria-hidden="true"></span>
+            <p class="text-sm font-semibold text-[#0E6B50]">Present</p>
+            <h3 class="font-display mt-1 text-xl font-bold sm:text-2xl">BSc in Computer Science and Engineering</h3>
+            <p class="mt-1 font-medium">Daffodil International University, Dhaka</p>
+          </li>
+
+          <li class="relative pl-10">
+            <span class="absolute left-0 top-1.5 h-6 w-6 rounded-full border-4 border-white bg-[#F4B63F] ring-2 ring-[#F4B63F]" aria-hidden="true"></span>
+            <p class="text-sm font-semibold text-[#7A5400]">2019 to 2021</p>
+            <h3 class="font-display mt-1 text-xl font-bold sm:text-2xl">Higher Secondary Certificate (HSC)</h3>
+            <p class="mt-1 font-medium">Ispahani Public School &amp; College, Cumilla</p>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-[#E4EEE9]">
+      <div class="mx-auto grid max-w-6xl gap-12 px-5 py-16 sm:px-8 md:grid-cols-2 md:py-24">
+
+        <div>
+          <h2 class="font-display text-3xl font-bold sm:text-4xl">Get in touch</h2>
+          <p class="mt-4 max-w-md text-lg text-[#33445A]">
+            Have a question, an opportunity or a project in mind? Send me a message and I'll reply as soon as I can.
+          </p>
+
+          <dl class="mt-8 space-y-5">
+            <div>
+              <dt class="text-sm text-[#46566A]">Email</dt>
+              <dd class="mt-0.5"><a href="mailto:farhanpranto1112@gmail.com" class="break-all text-lg font-semibold underline decoration-[#0E6B50] decoration-2 underline-offset-4 hover:text-[#0E6B50]">farhanpranto1112@gmail.com</a></dd>
+            </div>
+            <div>
+              <dt class="text-sm text-[#46566A]">GitHub</dt>
+              <dd class="mt-0.5"><a href="https://github.com/Whit3-Lotus" class="text-lg font-semibold underline decoration-[#0E6B50] decoration-2 underline-offset-4 hover:text-[#0E6B50]">github.com</a></dd>
+            </div>
+            <div>
+              <dt class="text-sm text-[#46566A]">LinkedIn</dt>
+              <dd class="mt-0.5"><a href="https://www.linkedin.com/in/farhan-rashid-pranto-8268a641b/" class="text-lg font-semibold underline decoration-[#0E6B50] decoration-2 underline-offset-4 hover:text-[#0E6B50]">linkedin.com</a></dd>
+            </div>
+            <div>
+              <dt class="text-sm text-[#46566A]">Location</dt>
+              <dd class="mt-0.5 text-lg font-semibold">Dhaka, Bangladesh</dd>
+            </div>
+          </dl>
+        </div>
+
+        <form action="mailto:farhanpranto1112@gmail.com" method="post" enctype="text/plain" class="rounded-3xl bg-white p-6 sm:p-8">
+          <div>
+            <label for="name" class="mb-1.5 block font-medium">Name</label>
+            <input id="name" name="name" type="text" required autocomplete="name"
+                   class="w-full rounded-lg border border-[#B8C4D3] bg-white px-4 py-3 focus:border-[#0E6B50] focus:outline-none focus:ring-2 focus:ring-[#0E6B50]/40">
+          </div>
+          <div class="mt-5">
+            <label for="email" class="mb-1.5 block font-medium">Email</label>
+            <input id="email" name="email" type="email" required autocomplete="email"
+                   class="w-full rounded-lg border border-[#B8C4D3] bg-white px-4 py-3 focus:border-[#0E6B50] focus:outline-none focus:ring-2 focus:ring-[#0E6B50]/40">
+          </div>
+          <div class="mt-5">
+            <label for="message" class="mb-1.5 block font-medium">Message</label>
+            <textarea id="message" name="message" rows="5" required
+                      class="w-full resize-y rounded-lg border border-[#B8C4D3] bg-white px-4 py-3 focus:border-[#0E6B50] focus:outline-none focus:ring-2 focus:ring-[#0E6B50]/40"></textarea>
+          </div>
+          <button type="submit" class="mt-6 inline-flex min-h-[48px] w-full items-center justify-center rounded-full bg-[#0E6B50] px-7 py-3 font-semibold text-white transition-colors hover:bg-[#0A5640] sm:w-auto">Send message</button>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-[#13202E] text-[#D6DEE8]">
+    <div class="mx-auto max-w-6xl px-5 py-12 sm:px-8">
+      <div class="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
+        <div>
+          <p class="font-display flex items-center gap-2 text-xl font-bold text-white">
+            <span class="inline-block h-3 w-3 rounded-sm bg-[#F4B63F]" aria-hidden="true"></span>
+            Farhan Rashid Pranto
+          </p>
+          <p class="mt-2 max-w-xs">CSE student at Daffodil International University, Dhaka.</p>
+        </div>
+
+        <nav aria-label="Footer" class="flex flex-wrap gap-x-6 gap-y-2">
+          <a href="#home" class="hover:text-[#F4B63F]">Home</a>
+          <a href="#about" class="hover:text-[#F4B63F]">About</a>
+          <a href="#skills" class="hover:text-[#F4B63F]">Skills</a>
+          <a href="#projects" class="hover:text-[#F4B63F]">Projects</a>
+          <a href="#contact" class="hover:text-[#F4B63F]">Contact</a>
+        </nav>
+
+        <div class="flex gap-6">
+          <a href="https://github.com/" class="hover:text-[#F4B63F]">GitHub</a>
+          <a href="https://www.linkedin.com/" class="hover:text-[#F4B63F]">LinkedIn</a>
+        </div>
+      </div>
+
+      <p class="mt-10 border-t border-white/15 pt-6 text-sm text-[#9FB0C6]">&copy; 2026 Farhan Rashid Pranto. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
